@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #333;
+}
+
+.navegador div a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegador div a:hover {
+    color: #ddd;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.movie-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 5px; 
+}
+
+
+.movie-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.movie-card h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
+.movie-link {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+.movie-link:hover {
+    background-color: #e8e8e8;
+}
